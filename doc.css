@@ -16,7 +16,52 @@ body {
 .grid {
   display: flex;
 }
+#signin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100px;
+  margin-top: 50px;
+  margin-bottom: -50px;
+}
 
+#signin input[type='email'] {
+  max-width: 275px;
+  width: 100%;
+  padding: 5px;
+}
+
+#signin input[type='submit'] {
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
+  margin: 15px 0;
+  border: 0;
+  background-color: sienna;
+}
+
+#signin input[type='submit']:hover {
+  background-color: orange;
+  transition: background-color 1s;
+}
+
+@media (max-width: 650px) {
+  #signin {
+    margin-top: 90px;
+  }
+}
+.btn {
+  padding: 0 10px;
+  height: 20px;
+  font-size: 5px;
+  font-weight: 400;
+  text-transform: uppercase;
+  border: 3px black solid;
+  border-radius: 2px;
+  
+}
 .container {
   max-width: 1000px;
   width: 100%;

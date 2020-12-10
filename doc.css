@@ -13,9 +13,6 @@ body {
 #page-wrapper {
   position: relative;
 }
-.grid {
-  display: flex;
-}
 #signin {
   display: flex;
   flex-direction: column;
@@ -24,7 +21,7 @@ body {
   text-align: center;
   height: 100px;
   margin-top: 150px;
-  margin-bottom: -50px;
+ 
 }
 
 #signin input[type='email'] {
@@ -42,11 +39,6 @@ body {
   background-color: sienna;
 }
 
-#signin input[type='submit']:hover {
-  background-color: orange;
-  transition: background-color 1s;
-}
-
 @media (max-width: 650px) {
   #signin {
     margin-top: 90px;
@@ -58,7 +50,7 @@ body {
   font-size: 5px;
   font-weight: 400;
   text-transform: uppercase;
-  border: 3px black solid;
+  border: 2px black solid;
   border-radius: 2px;
   
 }
